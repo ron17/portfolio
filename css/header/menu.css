@@ -1,0 +1,17 @@
+#menu{
+    position: relative;
+    display: flex;
+    height: 10%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 1% 0;
+}
+
+.item-menu > a{
+    text-decoration: none;
+    color: #e7e7e7;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}

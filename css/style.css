@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #7158e2;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body, html{
+    height: 100%;
+}
