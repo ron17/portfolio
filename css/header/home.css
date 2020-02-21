@@ -1,10 +1,10 @@
 #home{
     position: relative;
-    height: 88%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .typewrite{
@@ -16,7 +16,27 @@
 #home, .wrap{
     font-size: 7rem;
     font-family: 'Poiret One', cursive;
-    color: #e7e7e7;
+    color: #f8f8f2;
     font-weight: 400;
 
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    width: 70%;
+    background: rgba(40, 42, 54, 0.5);
+    border-radius: 1%;
+}
+
+#nome{
+    font-weight: bold;
+}
+
+main{
+    background: #7d5fff;
+}
+
