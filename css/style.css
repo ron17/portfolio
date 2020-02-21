@@ -12,6 +12,11 @@ body{
     background-size: cover;
 }
 
+::selection{
+    background: rgba(68, 71, 90, 0.5);
+    border-top-left-radius: 5px;
+}
+
 html{
     scroll-behavior: smooth;
 }
