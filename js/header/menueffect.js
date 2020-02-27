@@ -3,8 +3,8 @@ document.getElementsByTagName('body')[0].onscroll = (e) =>{
     let menu = document.getElementById('menu');
     console.log(scroll);
 
-    if(scroll > 850)
-        menu.style.background = '#282a36';
+    if(scroll > 720)
+        menu.style.background = '#2a2c37';
     else   
         menu.style.background = '';
 } ;

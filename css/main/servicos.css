@@ -1,0 +1,68 @@
+.servicos{
+    display: grid;
+    grid-template-columns: 1f 1f 1f;
+    grid-template-rows: 30vh 30vh 30vh;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-areas: "titulo titulo titulo"
+                                    "app site seo"
+                                    "api front servico";
+    margin: 0 20%;
+    gap: 20px;
+}
+
+.app, .site, .seo, .api, .front, .servico{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    grid-area: titulo;
+}
+
+.titulo > h1 {
+    margin: 2.5% 0 0 0 ;
+    color: #50fa7b;
+    font-size: 3.2rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.app{
+    grid-area: app;
+}
+
+.site{
+    
+    grid-area: site;
+}
+
+.seo{
+    grid-area: seo;
+}
+
+.api{
+    grid-area: api;
+}
+
+.front{
+    grid-area: front;
+}
+
+.servico{
+    grid-area: servico;
+}
+
+.box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.box-shadow:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
